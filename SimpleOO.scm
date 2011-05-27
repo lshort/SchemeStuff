@@ -1,5 +1,8 @@
 #lang scheme
 
+# a detailed explanation of the code can be found on my blog at
+# http://learnmeahaskell.blogspot.com/2011/01/nhr-structure-and-interpretation-of.html
+
 (define (make-account balance)
   (let ((set-balance (lambda (x) (set! balance x)))
         (get-balance (lambda () balance)))

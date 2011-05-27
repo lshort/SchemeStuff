@@ -1,5 +1,8 @@
 #lang scheme
 
+# an explanation of the code can be found on my blog at 
+# http://learnmeahaskell.blogspot.com/2011/01/redux-sicp-and-subclass-implementation.html
+
 (define (make-account balance)
   (define (set-balance x) (set! balance x))
   (define (get-balance) balance)
